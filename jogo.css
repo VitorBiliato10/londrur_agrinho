@@ -1,0 +1,212 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ga+Maamli&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ga+Maamli&family=Patrick+Hand&display=swap');
+
+
+body {
+    background: #00ff00;
+    color: #000000;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+canvas {
+    image-rendering: optimizeSpeed;
+    -webkit-interpolation-mode: nearest-neighbor;
+    -ms-touch-action: none;
+    touch-action: none;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+:-webkit-full-screen #canvas {
+    width: 100%;
+    height: 100%;
+}
+:-webkit-full-screen {
+    width: 100%;
+    height: 100%;
+}
+
+div.gm4html5_div_class {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+div.gm4html5_login {
+    padding: 20px;
+    position: absolute;
+    border: solid 2px #000000;
+    background-color: #404040;
+    color:#00ff00;
+    border-radius: 15px;
+    box-shadow: #101010 20px 20px 40px;
+}
+div.gm4html5_cancel_button {
+    float: right;
+}
+div.gm4html5_login_button {
+    float: left;
+}
+div.gm4html5_login_header {
+    text-align: center;
+}
+
+canvas{
+  
+    position: absolute;
+    left: 0px;
+ 
+ 
+    width: 100%;
+    height: 100%;
+    image-rendering: pixelated ;
+ 
+}
+
+.preto{
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    position: absolute;
+    opacity: 0.8;
+}
+.cont1{
+    right: 300px;
+    position: absolute;
+    top: 500px;
+  border: solid #ffffff;
+    border-radius: 10px;
+    height: 100px;
+    width: 100px;
+}
+.cont2{
+    right: 190px;
+    position: absolute;
+    top: 500px;
+  border: solid #ffffff;
+    border-radius: 10px;
+    height: 100px;
+    width: 100px;
+}
+.cont3{
+    right: 80px;
+    position: absolute;
+    top: 500px;
+  border: solid #ffffff;
+    border-radius: 10px;
+    height: 100px;
+    width: 100px;
+}
+.cont4{
+    right: 190px;
+    position: absolute;
+    top: 390px;
+  border: solid #ffffff;
+    border-radius: 10px;
+    height: 100px;
+    width: 100px;
+}
+.cont5{
+    left: 180px;
+    position: absolute;
+    top: 500px;
+  border: solid #ffffff;
+    border-radius: 10px;
+    height: 100px;
+    width: 100px;
+}
+.cont6{
+    left: 300px;
+    position: absolute;
+    top: 500px;
+  border: solid #ffffff;
+    border-radius: 10px;
+    height: 100px;
+    width: 100px;
+}
+h1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: aliceblue;
+    position: absolute;
+    top: 100px;
+    left: 600px;
+    font-size: 60px;
+}
+h2{
+    color: #ffffff;
+    position: absolute;
+     left: 15px;
+     top: 5px;
+   font-size: 30px;
+}
+h3{
+    color: #ffffff;
+    position: absolute;
+     left: 35px;
+     top: -15px;
+   font-size: 40px;
+}
+h4{
+    color: #ffffff;
+    position: absolute;
+     right: 35px;
+     top: -25px;
+   font-size: 40px;
+   transform: rotateZ(180deg);
+}
+h5{
+    color: #ffffff;
+    position: absolute;
+     right: 30px;
+     top: -35px;
+   font-size: 40px;
+   transform: rotateZ(90deg);
+}
+h6{
+    color: #ffffff;
+    position: absolute;
+     right: 30px;
+     top: -65px;
+   font-size: 40px;
+ 
+}
+h7{
+    color: #ffffff;
+    position: absolute;
+     right: 30px;
+     top: 30px;
+   font-size: 40px;
+   transform: rotateZ(270deg);
+}
+
+.cont6 p{
+color: aliceblue;
+font-size: 30px;
+position: absolute;
+top:80px;
+
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.cont5 p{
+    left: -20px;
+    position: absolute;
+color: #ffffff;
+font-size: 30px;
+top:80px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+button{
+    position: absolute;
+    top: 400px;
+    left: 640px;
+    height: 50px;
+    width: 200px;
+    border-color: aliceblue;
+    border-radius: 30px;
+       background-color: transparent;
+       color: #ffffff;
+       font-size: 20px;
+}

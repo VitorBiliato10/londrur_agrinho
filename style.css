@@ -1,0 +1,665 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ga+Maamli&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ga+Maamli&family=Patrick+Hand&display=swap');
+
+
+body {
+    background: #000000;
+    color: #ffffff;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+canvas {
+    image-rendering: optimizeSpeed;
+    -webkit-interpolation-mode: nearest-neighbor;
+    -ms-touch-action: none;
+    touch-action: none;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+:-webkit-full-screen #canvas {
+    width: 100%;
+    height: 100%;
+}
+:-webkit-full-screen {
+    width: 100%;
+    height: 100%;
+}
+
+div.gm4html5_div_class {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+div.gm4html5_login {
+    padding: 20px;
+    position: absolute;
+    border: solid 2px #000000;
+    background-color: #404040;
+    color:#00ff00;
+    border-radius: 15px;
+    box-shadow: #101010 20px 20px 40px;
+}
+div.gm4html5_cancel_button {
+    float: right;
+}
+div.gm4html5_login_button {
+    float: left;
+}
+div.gm4html5_login_header {
+    text-align: center;
+}
+
+h1{
+    font-size: 50px;
+    position: absolute;
+    top: 140px;
+    left: 50px;
+        font-family: "Bakbak One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+}
+
+e{
+    color: #028a14;
+    font-size: 60px;
+    position: absolute;
+    top: 230px;
+    left: 110px;
+        font-family: "Pixelify Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal; 
+}
+.apr {
+    color: rgb(136, 136, 136);
+    width: 540px;
+    font-size: 20px;
+    position: absolute;
+    top: 300px;
+    font-family: Patrick Hand, cursive;
+    
+    left: 50px;
+}
+  h2{
+    top: -20px;
+  left: 30px;
+    position: absolute;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+p{
+    left: 50px;
+    top: 720px;
+    position: absolute;
+    font-size: 20px;
+    display: flex;
+    font-family: Patrick Hand, cursive;
+    justify-content: center;
+    width: 550px;
+}
+.verd{
+    
+    z-index: 0;
+    left: 120px;
+    top: 670px;
+    position: absolute;
+    height: 50px;
+    width: 300px;
+    background-color: #028a14;
+    border-radius: 30px;
+    border-left: 5px solid black;
+}
+.colorau{
+    border-radius: 25px;
+    border: 0px solid #73AD21;
+    padding: 10px;
+    position: relative;
+    left: 820px;
+    bottom: 180px;
+    width: 450px;
+    height: 350px;
+    top: 700px;
+}
+.lg{
+    position: absolute;
+    top: 1170px;
+    left: 700px;
+}
+.uf{
+  
+    z-index: 0;
+    position: absolute;
+    height: 50px;
+    width: 650px;
+    background-color: #028a14;
+    border-radius: 30px;
+    border-left: 5px solid black;
+}
+
+.letra{
+    font-size: 24px;
+    display: flex;
+    font-family: Patrick Hand, cursive;
+    justify-content: center;
+    width: 550px;
+    top: 50px;
+}
+
+
+.cristo{
+    border-radius: 25px;
+    border: 0px solid #73AD21;
+    padding: 10px;
+    position: relative;
+    left: 120px;
+    bottom: 180px;
+    width: 450px;
+    height: 310px;
+    top: 720px;
+}
+
+h3{
+    left: 50px;
+      position: absolute;
+      top: -20px;
+        font-size: 30px;
+        color: rgb(255, 255, 255);
+        font-family: "Pixelify Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        animation: piscar 0.8s infinite;
+  
+}
+
+.hhh{
+    border-radius: 30px;
+    top: 1650px;
+      left: 360px;
+        position: absolute;
+        height: 50px;
+       width: 650px;
+       background-color: #028a14;
+
+}
+
+@keyframes piscar {
+    20%{
+        color: rgb(255, 255, 255);
+         
+  }
+  40%{
+      color: #028a14;
+  }
+}
+
+
+:-webkit-full-screen #canvas {
+    width: 100%;
+    height: 100%;
+}
+:-webkit-full-screen {
+    width: 100%;
+    height: 100%;
+}
+
+canvas {
+    background: #028a14;
+    width: 1200px;
+    height: 720px;
+    image-rendering: pixelated;
+    -ms-touch-action: none;
+    touch-action: none;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    position: absolute;
+    left: 100px
+}
+.fundo{
+    z-index: 1;
+  
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    background-color: #028a14;
+}
+
+h6{
+    color: #aaa8a8;
+    top: 1660px;
+    left: 200px;
+      position: absolute;
+      font-size: 25px;
+      display: flex;
+      font-family: Patrick Hand, cursive;
+      justify-content: center;
+      width: 1050px;
+      text-align: -webkit-center;
+
+}
+
+
+.fund{
+    position: absolute;
+    z-index: 3;
+    background-color: #000000;
+    top: 2260px ;
+    width: 100%;
+    height: 167px;
+}
+.icons img {
+    width: 50px;
+    height: 50px;
+   
+}
+
+.tst{
+    position: absolute;
+    z-index: 3;
+    height:150px;
+    width:1384px ;
+   
+}
+.tstt{
+    height:140px ;
+    width:1384px ;
+    position: absolute;
+     z-index: 2;
+    top: 25px; 
+}
+
+h4{
+    text-align: center;
+    font-family: Patrick Hand, cursive;
+    color: aliceblue;
+}
+h5{
+    font-family: Patrick Hand, cursive;
+    position: absolute;
+    top: 20px;
+    color: rgb(153, 153, 153);
+    left: 20px;
+}
+
+button{
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 5;
+    position: absolute;
+    top: 960px;
+   right: 250px;
+  height: 35px ;
+  width: 100px;
+  border-radius: 20px;
+  border-bottom: none;
+  border-style: none ;
+  background-color: #028a14;
+  color: rgb(0, 0, 0);
+}
+.yop{
+
+position: absolute;
+right: 40px;
+top: 200px;
+    background: black;
+}
+.canavass{
+    top: 8000px;
+    position: absolute;
+    left: 0;
+    border-radius: 25px;
+    width: 100%;
+    height: 100%;
+    image-rendering: pixelated ;
+}
+canvas{
+ 
+    border-radius: 25px;
+    border: 10px solid #028a14;
+   
+    width: 100%;
+    height: 100%;
+    image-rendering: pixelated ;
+ 
+}
+
+.pisc{
+  
+   animation: pisscar 2s infinite;
+   opacity:1;
+}
+.pisc{
+    width: 600px; 
+     image-rendering: pixelated;
+}
+
+@keyframes pisscar {
+    0%{opacity: 1;}    
+    25%{
+        opacity: 0.6;
+}
+
+50%{
+    opacity: 1;
+}
+
+75%{
+    opacity: 0.6;
+}
+
+99%{
+    opacity: 1;
+}
+100%{
+    opacity: 1;
+}
+
+
+}
+
+.exp{
+   left: 800px;
+    top: 1870px;
+    position: absolute;
+    font-size: 30px;
+    font-family: Patrick Hand, cursive;
+    color: rgb(255, 255, 255);
+    
+}
+
+.Tela{
+    z-index: 5;
+    position: absolute;
+    font-size: 30px;
+    text-decoration: none;
+    color: aliceblue;
+     right: 33px;
+     top: 7px;
+     font-family: Arial, Helvetica, sans-serif;
+}
+
+.tlaaa{
+  z-index: 3;
+  top: 2040px;
+  position: absolute;
+  font-size: 30px;
+ left: 850px;
+  text-decoration: none;
+  background-color: #028a14;
+  height: 50px;
+  width: 200px;
+  border-radius: 50px;
+}
+.tlaaa:hover{
+    color: #000000;
+    border: solid 2px #028a14;
+    background-color: transparent;
+    height: 55px;
+    width: 200px;
+    border-radius: 50px;
+}
+
+
+canvas{
+  
+    position: absolute;
+    left: 200px;
+   top: 1840px;
+ 
+    width: 400px;
+    height: 400px;
+    image-rendering: pixelated ;
+ 
+}
+
+@media all and (min-width: 1000px) and (max-width: 1496px) {
+    .tst{
+        position: absolute;
+        z-index: 3;
+        height:220px;
+        width: 100% ;
+       
+    }
+    .tstt{
+        height:140px ;
+        width: 100% ;
+        position: absolute;
+         z-index: 2;
+        top: 25px; 
+    }
+
+}
+
+
+.tras{
+    position: absolute;
+    right: 20px;
+}
+.rede img {
+    position: absolute;
+    z-index: 67;
+    width: 30px;
+    height: 30px;
+    right: 20px;
+}
+
+@media (max-width: 880px) {
+
+
+    h1{
+        font-size: 35px;
+        position: absolute;
+        top: 20px;
+        left: 50px;
+            font-family: "Bakbak One", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+    }
+    
+    e{
+        color: #028a14;
+        font-size: 40px;
+        position: absolute;
+        top: 80px;
+        left: 110px;
+            font-family: "Pixelify Sans", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 700;
+            font-style: normal; 
+    }
+    .apr {
+        color: rgb(136, 136, 136);
+        width: 340px;
+        font-size: 15px;
+        position: absolute;
+        top: 120px;
+        font-family: Patrick Hand, cursive;
+        
+        left: 25px;
+    }
+    .pisc{
+        width: 300px; 
+         image-rendering: pixelated;
+    }
+    .yop {
+        position: absolute;
+        right: 84px;
+        top: 279px;
+    }
+    .verd {
+        z-index: 0;
+        left: 55px;
+        top: 568px;
+        position: absolute;
+        height: 50px;
+        width: 258px;
+        background-color: #028a14;
+        border-radius: 30px;
+        border-left: 5px solid black;
+    }
+     .verd h2 {
+        top: -20px;
+        left: 17px;
+        position: absolute;
+        font-size: 30px;
+        color: rgb(255, 255, 255);
+        font-family: "Pixelify Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+    }
+    p {
+        left: 50px;
+        top: 647px;
+        position: absolute;
+        font-size: 15px;
+        display: flex;
+        font-family: Patrick Hand, cursive;
+        justify-content: center;
+        width: 327px;
+    }    
+    .colorau {
+        border-radius: 25px;
+        border: 0px solid #73AD21;
+        padding: 10px;
+        position: relative;
+        left: 43px;
+        bottom: 180px;
+        width: 289px;
+        height: 229px;
+        top: 893px;
+    }
+    .lg {
+        position: absolute;
+        top: 1170px;
+        left: -1px;
+    }
+
+    .uf {
+        z-index: 0;
+        position: absolute;
+        height: 50px;
+        width: 380px;
+        background-color: #028a14;
+        border-radius: 30px;
+        border-left: 5px solid black;
+    }
+    h2 {
+        top: -7px;
+        left: 17px;
+        position: absolute;
+        font-size: 19px;
+        color: rgb(255, 255, 255);
+        font-family: "Pixelify Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+    }
+    .letra {
+        font-size: 17px;
+        display: flex;
+        font-family: Patrick Hand, cursive;
+        justify-content: center;
+        width: 321px;
+        top: 50px;
+    }
+    
+.cristo {
+    border-radius: 25px;
+    border: 0px solid #73AD21;
+    padding: 10px;
+    position: relative;
+    left: 28px;
+    bottom: 180px;
+    width: 310px;
+    height: 265px;
+    top: 1010px;
+}
+h3 {
+    left: 23px;
+    position: absolute;
+    top: -9px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    animation: piscar 0.8s infinite;
+}
+.hhh {
+    border-radius: 30px;
+    top: 1810px;
+    left: 4px;
+    position: absolute;
+    height: 50px;
+    width: 377px;
+    background-color: #028a14;
+}
+h6 {
+    color: #aaa8a8;
+    top: 1825px;
+    left: 43px;
+    position: absolute;
+    font-size: 17px;
+    display: flex;
+    font-family: Patrick Hand, cursive;
+    justify-content: center;
+    width: 298px;
+    text-align: -webkit-center;
+}
+
+canvas {
+    position: absolute;
+    left: 21px;
+    top: 2071px;
+    width: 321px;
+    height: 303px;
+    image-rendering: pixelated;
+}
+.fund {
+    position: absolute;
+    z-index: 3;
+    background-color: #000000;
+    top: 2653px;
+    width: 100%;
+    height: 167px;
+}
+h5 {
+    font-family: Patrick Hand, cursive;
+    position: absolute;
+    top: -27px;
+    color: rgb(153, 153, 153);
+    left: 15px;
+}
+
+.exp {
+    left: 80;
+    top: 2389px;
+    position: absolute;
+    font-size: 21px;
+    font-family: Patrick Hand, cursive;
+    color: rgb(255, 255, 255);
+}
+.tlaaa {
+    z-index: 3;
+    top: 2525px;
+    position: absolute;
+    font-size: 30px;
+    left: 78px;
+    text-decoration: none;
+    background-color: #028a14;
+    height: 50px;
+    width: 200px;
+    border-radius: 50px;
+}
+
+}
